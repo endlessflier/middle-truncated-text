@@ -1,0 +1,36 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.container {
+  display: flex;
+  margin: 0 0 4px 0;
+  border-style: solid;
+  width: 200px;
+}
+.textbox {
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  border-radius: 4px;
+  text-align: left;
+  width: 100px;
+}
+
+.truncated {
+  width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /* padding: 20px; */
+  /* font-size: 1.3rem; */
+  margin: 0;
+  background: white;
+  /* resize: horizontal; */
+}
+.tails {
+  display: inline-block;
+}
